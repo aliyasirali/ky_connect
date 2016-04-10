@@ -1,4 +1,4 @@
-package com.ky.fb_connect.fb_con;
+package com.kycon.adviser.kycon;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -60,7 +60,7 @@ public class LoginActivity extends Activity implements LoaderCallbacks<Cursor> {
         super.onCreate(savedInstanceState);
         FacebookSdk.sdkInitialize(getApplicationContext());
 
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.login_main);
 
         // Set up the login form.
         //mEmailView = (AutoCompleteTextView) findViewById(R.id.email);

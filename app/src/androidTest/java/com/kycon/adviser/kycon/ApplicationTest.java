@@ -1,4 +1,4 @@
-package com.ky.fb_connect.fb_con;
+package com.kycon.adviser.kycon;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
